@@ -10,6 +10,7 @@
 		946CFAD6270C5D080019724A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946CFAD5270C5D080019724A /* main.swift */; };
 		946CFADD270C8DB60019724A /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946CFADC270C8DB60019724A /* Employee.swift */; };
 		946CFADF270C9EC10019724A /* WageBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946CFADE270C9EC10019724A /* WageBuilder.swift */; };
+		946CFAE1270CBA150019724A /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946CFAE0270CBA150019724A /* Company.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		946CFAD5270C5D080019724A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		946CFADC270C8DB60019724A /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 		946CFADE270C9EC10019724A /* WageBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WageBuilder.swift; sourceTree = "<group>"; };
+		946CFAE0270CBA150019724A /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				946CFAD5270C5D080019724A /* main.swift */,
 				946CFADC270C8DB60019724A /* Employee.swift */,
 				946CFADE270C9EC10019724A /* WageBuilder.swift */,
+				946CFAE0270CBA150019724A /* Company.swift */,
 			);
 			path = EmployeeWageProblem;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 				946CFAD6270C5D080019724A /* main.swift in Sources */,
 				946CFADD270C8DB60019724A /* Employee.swift in Sources */,
 				946CFADF270C9EC10019724A /* WageBuilder.swift in Sources */,
+				946CFAE1270CBA150019724A /* Company.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
