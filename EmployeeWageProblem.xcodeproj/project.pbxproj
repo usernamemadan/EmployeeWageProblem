@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		946CFAD6270C5D080019724A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946CFAD5270C5D080019724A /* main.swift */; };
 		946CFADD270C8DB60019724A /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946CFADC270C8DB60019724A /* Employee.swift */; };
+		946CFADF270C9EC10019724A /* WageBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946CFADE270C9EC10019724A /* WageBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		946CFAD2270C5D080019724A /* EmployeeWageProblem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EmployeeWageProblem; sourceTree = BUILT_PRODUCTS_DIR; };
 		946CFAD5270C5D080019724A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		946CFADC270C8DB60019724A /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		946CFADE270C9EC10019724A /* WageBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WageBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				946CFAD5270C5D080019724A /* main.swift */,
 				946CFADC270C8DB60019724A /* Employee.swift */,
+				946CFADE270C9EC10019724A /* WageBuilder.swift */,
 			);
 			path = EmployeeWageProblem;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			files = (
 				946CFAD6270C5D080019724A /* main.swift in Sources */,
 				946CFADD270C8DB60019724A /* Employee.swift in Sources */,
+				946CFADF270C9EC10019724A /* WageBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

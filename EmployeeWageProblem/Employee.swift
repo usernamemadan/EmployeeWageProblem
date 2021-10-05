@@ -10,11 +10,11 @@ import Foundation
 class Employee{
     
     let WAGE_PER_HOUR: Int
-    let FULL_DAY_HOURS: Int
+    let FULL_DAY_HOURS: Int = 8
+    let PART_TIME_HOURS: Int = 4
     
-    init(wagePerHour: Int,fullDayHours: Int) {
+    init(wagePerHour: Int) {
         self.WAGE_PER_HOUR = wagePerHour
-        self.FULL_DAY_HOURS = fullDayHours
     }
     
     func isPresent() -> Bool {
@@ -29,7 +29,8 @@ class Employee{
         }
     }
     
-    func calculateDailyWage() {
-        print("daily wage of employee : ", WAGE_PER_HOUR * FULL_DAY_HOURS)
+    func isFullTime() -> Bool {
+        return Bool.random()
     }
+  
 }
