@@ -8,7 +8,9 @@
 import Foundation
 
 print("welcome to employee wage problem")
-let wageBuilder = WageBuilder(wagePerHour: 20, totalWorkingDays: 20, totalWorkingHours: 100)
+let company = Company(name: "TCS")
+let wageBuilder = WageBuilder(company: company, wagePerHour: 20, totalWorkingDays: 20, totalWorkingHours: 100)
+
 
 wageBuilder.checkAttendence()
 wageBuilder.calculateDailyWage()

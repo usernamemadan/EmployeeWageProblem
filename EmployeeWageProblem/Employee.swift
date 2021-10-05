@@ -16,10 +16,11 @@ class Employee{
     let TOTAL_WORKING_DAYS: Int
     let TOTAL_WORKING_HOURS: Int
     
-    init(wagePerHour: Int, totalWorkingDays: Int, totalWorkingHours : Int) {
+    init(company: Company, wagePerHour: Int, totalWorkingDays: Int, totalWorkingHours : Int) {
         self.WAGE_PER_HOUR = wagePerHour
         self.TOTAL_WORKING_DAYS = totalWorkingDays
         self.TOTAL_WORKING_HOURS = totalWorkingHours
+        print("name of the company : ", company.name)
     }
     
     func isPresent() -> Bool {
