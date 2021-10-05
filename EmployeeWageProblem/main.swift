@@ -7,5 +7,5 @@
 
 import Foundation
 
-print("Hello, World!")
+print("welcome to employee wage problem")
 
