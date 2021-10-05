@@ -12,4 +12,5 @@ let wageBuilder = WageBuilder(wagePerHour: 20)
 
 wageBuilder.checkAttendence()
 wageBuilder.calculateDailyWage()
+wageBuilder.calculateMonthlyWage()
 

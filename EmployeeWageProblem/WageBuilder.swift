@@ -9,12 +9,12 @@ import Foundation
 
 class WageBuilder: Employee {
 
-    func calculateDailyWage() {
+    func calculateDailyWage() -> Int {
         let DailyWage: Int
 
         if !isPresent() {
             DailyWage = 0
-            return
+            return DailyWage
         }
         
         switch isFullTime() {
@@ -24,5 +24,15 @@ class WageBuilder: Employee {
             DailyWage = PART_TIME_HOURS * WAGE_PER_HOUR
         }
         print("daily wage of employee : ", DailyWage)
+        
+        return DailyWage
+    }
+    
+    func calculateMonthlyWage(){
+        var monthlyWage: Int = 0
+        for _ in 1...WORDING_DAYS_PER_MONTH{
+            monthlyWage += calculateDailyWage()
+        }
+        print("Monthly wage of employee : ", monthlyWage)
     }
 }
