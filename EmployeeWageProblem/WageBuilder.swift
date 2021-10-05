@@ -11,15 +11,16 @@ class WageBuilder: Employee {
 
     func calculateDailyWage() {
         let DailyWage: Int
-        
+
         if !isPresent() {
             DailyWage = 0
             return
         }
-        if isFullTime() {
+        
+        switch isFullTime() {
+        case true:
             DailyWage = FULL_DAY_HOURS * WAGE_PER_HOUR
-        }
-        else{
+        case false:
             DailyWage = PART_TIME_HOURS * WAGE_PER_HOUR
         }
         print("daily wage of employee : ", DailyWage)
