@@ -8,6 +8,8 @@
 import Foundation
 
 print("welcome to employee wage problem")
-let employee = Employee()
+let employee = Employee(wagePerHour: 20, fullDayHours: 8)
 
 employee.checkAttendence()
+employee.calculateDailyWage()
+
