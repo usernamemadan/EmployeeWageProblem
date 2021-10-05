@@ -8,4 +8,6 @@
 import Foundation
 
 print("welcome to employee wage problem")
+let employee = Employee()
 
+employee.checkAttendence()
